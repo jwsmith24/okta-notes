@@ -31,7 +31,7 @@ function App() {
     if (!user || !user.authenticated) {
         return (
             <div style={{ padding: "2rem" }}>
-                <h1>Okta Notes Demo</h1>
+                <h1>Super Rad Okta Notes Demo</h1>
                 <p>You are not logged in.</p>
                 <LoginButton />
             </div>
@@ -40,7 +40,7 @@ function App() {
 
     return (
         <div style={{ padding: "2rem" }}>
-            <h1>Okta Notes Demo</h1>
+            <h1>Super Rad Okta Notes Demo</h1>
             <p>Welcome, {user.name ?? user.email}!</p>
             <LogoutButton />
 
