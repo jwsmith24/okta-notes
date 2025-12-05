@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: okta-backend
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: 0oay2kpl6s6554VKb697
+            client-secret: tXh1vMIz1sy96J6QodFz8AuMtOuBrnQHM5dh289FwGDDDDGNtinV2c2ZyH6KsH0a
+            scope:
+              - openid
+              - profile
+              - email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+
+        provider:
+          okta:
+            issuer-uri: https://integrator-4755131.okta.com
