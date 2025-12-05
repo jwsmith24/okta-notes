@@ -6,8 +6,8 @@ spring:
       client:
         registration:
           okta:
-            client-id: 0oay2kpl6s6554VKb697
-            client-secret: tXh1vMIz1sy96J6QodFz8AuMtOuBrnQHM5dh289FwGDDDDGNtinV2c2ZyH6KsH0a
+            client-id: ${OKTA_CLIENT_ID}
+            client-secret: ${OKTA_CLIENT_SECRET}
             scope:
               - openid
               - profile
